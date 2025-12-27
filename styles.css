@@ -11,7 +11,10 @@ body {
   margin-top:70px;
   display:inline-block;
 }
-
+.left p {
+  font-size: 24px;
+  color: #1c1e21;
+}
 img {
   margin-left:100px;
 }
