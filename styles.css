@@ -15,8 +15,11 @@ body {
 img {
   margin-left:100px;
 }
-
-.right {
+.right{
+	background-color:white;
+	padding:25px;
+}
+.right input{
   display:flex;
   width:300px;
   background-color:white;
@@ -25,6 +28,7 @@ img {
   box-shadow:0 0 10px #ccc;
   flex-direction:column;
   gap:10px;
+
 }
 
 .submit {
@@ -33,14 +37,18 @@ img {
   padding:10px 20px;
   color:white;
   border:none;
+ text-align:center;
+ width:100%;
 }
 
 .signup {
-  background-color:#42b72a;
-  padding:10px 20px;
-  color:white;
-  border-radius:5px;
-  border:none;
+   padding:10px;
+	font-size:15px;
+	background-color:#42b72a;
+	color:white;
+	border:none;
+	border-radius:6px;
+	margin-left:85px;
 }
 
 input {
@@ -51,5 +59,9 @@ input {
 
 .para {
   color:#1877f2;
-  text-decoration:none;
+	margin: 15px 0;
+	text-align:center;
+    text-decoration:none;
+	display:block;
+	font-size:20px;
 }

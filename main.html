@@ -1,26 +1,63 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Facebook Login</title>
-  </head>
-  <body>
+<head>
+  <title>Facebook Login</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <div class="left">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjKYmBc3E7ztL3FwPPn8kC1JDw0kMjGyPoJA&s" alt="Facebook logo">
-      <p>Facebook helps you connect and share with the people in your life.</p>
-    </div>
+  <!-- Left section -->
+  <div class="left">
+    <img 
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjKYmBc3E7ztL3FwPPn8kC1JDw0kMjGyPoJA&s" 
+      alt="Facebook logo">
 
-    <div class="right">
-      <form>
-        <input type="text" id="email" placeholder="Email address or phone number"><br>
-        <input type="password" id="password" placeholder="Password"><br>
+    <p>
+      Facebook helps you connect and share with the people in your life.
+    </p>
+  </div>
 
-        <button type="submit" class="submit">Log in</button>
-<br>
-        <a href="#" class="para">Forgotten account?</a>
-<br>
-        <button class="signup">Create new account</button>
-      </form>
-    </div>
+  <!-- Right section -->
+  <div class="right">
+    <form>
 
-  </body>
+      <input 
+        type="text" 
+        id="email" 
+        placeholder="Email address or phone number">
+
+      <br>
+
+      <input 
+        type="password" 
+        id="password" 
+        placeholder="Password">
+
+      <br>
+
+      <button type="submit" class="submit">
+        Log in
+      </button>
+
+      <br>
+
+      <a href="#" class="para">
+        Forgotten account?
+      </a>
+<hr>
+      <br>
+		
+
+      <!-- IMPORTANT: type="button" + redirect -->
+      <button 
+        type="button" 
+        class="signup"
+        onclick="window.location.href='/reg/'">
+        Create new account
+      </button>
+
+    </form>
+  </div>
+
+</body>
 </html>
